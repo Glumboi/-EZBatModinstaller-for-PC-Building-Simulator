@@ -1,0 +1,12 @@
+﻿1.1:
+-A new way the app installs mods:
+Instead of JUST merging the .bat files it also copy's the asset (txt and xml) files to the PCBS folder
+to avoid install failing.
+It also now uses a folder where you have to put the mods in called "Glumboi" which is in the same folder as the game (PCBS.exe).
+-Quality of live improvements:
+App closes PCBS.exe when installing mods (if it is running).
+App now cleans up temp install files when installing is done.
+Added Glumboi folder auto creation which creates a Glumboi folder as soon as the path is selected.
+Made a minor adjustment to the GUI edge so it is symmetrical.
+Added a unable to load save fix button.
+Changed button appearance.
